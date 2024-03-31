@@ -1,7 +1,9 @@
 {
 	# Import all your configuration modules here
 	imports = [
-		./oil.nix
+		./keymaps.nix
+		./options.nix
+		./plugins
 	];
 
 	colorschemes.gruvbox.enable = true;

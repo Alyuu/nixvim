@@ -1,2 +1,9 @@
-keymaps = [
-]
+{
+	globals = {
+		mapleader = " ";
+		maplocalleader = " ";
+	};
+
+	keymaps = [
+	];
+}
