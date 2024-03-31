@@ -4,5 +4,5 @@
 		./oil.nix
 	];
 
-	colorscheme.gruvbox.enable = true;
+	colorschemes.gruvbox.enable = true;
 }
