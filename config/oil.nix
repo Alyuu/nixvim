@@ -9,6 +9,6 @@
 		key = "-";
 		mode = "n";
 		options.desc = "Open oil";
-	}
-  ]
+	};
+  ];
 }
