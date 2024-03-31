@@ -83,6 +83,14 @@
             '';
         };
 
+        window = {
+            completion = {
+                scrollbar = false;
+                border = "single";
+                winhighlight = "Normal:SignColumn,FloatBorder:GruvboxAquaSign,CursorLine:PmenuSel,Search:None";
+            };
+        };
+
         mapping = {
           "<C-n>" = "cmp.mapping.select_next_item()";
           "<C-p>" = "cmp.mapping.select_prev_item()";
