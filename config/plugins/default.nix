@@ -6,6 +6,6 @@
 		./treesitter.nix
 		./lsp.nix
 		./none-ls.nix
-		./cmp
+		./cmp.nix
 	];
 }
