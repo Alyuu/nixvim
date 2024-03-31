@@ -1,6 +1,8 @@
 {
-  # Import all your configuration modules here
-  imports = [
-    ./bufferline.nix
-  ];
+	# Import all your configuration modules here
+	imports = [
+		./oil.nix
+	];
+
+	colorscheme.gruvbox = true;
 }

@@ -1,5 +1,5 @@
 {
-  plugins.bufferline = {
+  plugins.oil = {
     enable = true;
   };
 }
