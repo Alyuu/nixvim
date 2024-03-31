@@ -7,5 +7,7 @@
 		./lsp.nix
 		./none-ls.nix
 		./cmp.nix
+        ./comment.nix
+        ./colorizer.nix
 	];
 }
