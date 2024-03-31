@@ -2,7 +2,7 @@
 	plugins = {
 		treesitter = {
 			enable = true;
-			intent = true;
+			indent = true;
 		};
 		rainbow-delimiters.enable = true;
 		# treesitter-context.enable = true;
