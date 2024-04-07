@@ -9,5 +9,7 @@
 		./cmp.nix
         ./comment.nix
         ./colorizer.nix
+        ./neogit.nix
+        ./gitsigns.nix
 	];
 }
