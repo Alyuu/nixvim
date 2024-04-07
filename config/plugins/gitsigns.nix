@@ -60,10 +60,10 @@
             options.desc = "Git [H]unk [P]review";
         }
         {
-            action = "<CMD>Gitsigns blame_line<CR>";
-            key = "<leader>hb";
+            action = "<CMD>Gitsigns toggle_current_line_blame<CR>";
+            key = "<leader>tb";
             mode = "n";
-            options.desc = "Git [B]lame";
+            options.desc = "[T]oggle [B]lame";
         }
     ];
 }
