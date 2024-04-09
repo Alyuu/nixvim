@@ -10,7 +10,6 @@
 			cssls.enable = true;
 			html.enable = true;
 			htmx.enable = true;
-			rust-analyzer.enable = true;
 		};
 		keymaps.lspBuf = {
 			"gd" = "definition";
