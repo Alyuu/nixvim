@@ -6,10 +6,11 @@
 			gopls.enable = true;
 			nixd.enable = true;
 			ruff-lsp.enable = true;
-			csharp-ls.enable = true;
+			omnisharp.enable = true;
 			cssls.enable = true;
 			html.enable = true;
 			htmx.enable = true;
+			tsserver.enable = true;
 		};
 		keymaps.lspBuf = {
 			"gd" = "definition";
