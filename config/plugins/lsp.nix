@@ -3,13 +3,14 @@
 		enable = true;
 		servers = {
 			bashls.enable = true;
-			clangd.enable = true;
-			elixirls.enable = true;
-			fsautocomplete.enable = true;
 			gopls.enable = true;
-			kotlin-language-server.enable = true;
 			nixd.enable = true;
 			ruff-lsp.enable = true;
+			csharp-ls.enable = true;
+			cssls.enable = true;
+			html.enable = true;
+			htmx.enable = true;
+			rust-analyzer.enable = true;
 		};
 		keymaps.lspBuf = {
 			"gd" = "definition";
