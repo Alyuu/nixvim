@@ -4,23 +4,35 @@
         };
 
         keymaps = [
-          	{
-        		action = "require'hop'.hint_char1()";
-        		key = "<leader><leader>s";
-        		mode = "n";
-        		options.desc = "Hop [S]ingle char";
-        	}
                 {
-        		action = "require'hop'.hint_patterns()";
-        		key = "<leader><leader>/";
-        		mode = "n";
-        		options.desc = "Hop search";
-        	}
+                        key = "<leader><leader>s";
+                        action.__raw = \'\'
+                        function()
+                          require'hop'.hint_char1()
+                        end
+                        \'\';
+                        options.remap = true;
+                        options.desc = "Hop [S]ingle char";
+                }
                 {
-        		action = "require'hop'.hint_lines()";
-        		key = "<leader><leader>l";
-        		mode = "n";
-        		options.desc = "Hop [L]ine";
-        	}
+                        key = "<leader><leader>/";
+                        action.__raw = \'\'
+                        function()
+                          require'hop'.hint_patterns()
+                        end
+                        \'\';
+                        options.remap = true;
+                        options.desc = "Hop search";
+                }
+                {
+                        key = "<leader><leader>l";
+                        action.__raw = \'\'
+                        function()
+                          require'hop'.hint_lines()
+                        end
+                        \'\';
+                        options.remap = true;
+                        options.desc = "Hop [L]ines";
+                }
         ];
 }
