@@ -21,8 +21,11 @@
         cmp = {
             enable = true;
 
+            autoEnableSources = true;
+
             settings = {
                 snippet.expand = "luasnip";
+                experimental = { ghost_text = true; };
                 sources = [
                 { name = "nvim_lsp"; }
                 { name = "luasnip"; }
