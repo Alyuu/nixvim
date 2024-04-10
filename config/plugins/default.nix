@@ -12,5 +12,6 @@
 	        ./neogit.nix
 	        ./gitsigns.nix
 		./hop.nix
+		./fidget.nix
 	];
 }
