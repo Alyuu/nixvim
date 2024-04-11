@@ -13,5 +13,6 @@
 	        ./gitsigns.nix
 		./hop.nix
 		./fidget.nix
+		./trouble.nix
 	];
 }
