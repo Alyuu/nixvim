@@ -24,7 +24,26 @@
 				options.desc = "Search [G]it [F]iles";
 			};
 		};
-		
+
+		settings = {
+			defaults = {
+				file_ignore_patterns = [
+					"^.git/"
+					"^.mypy_cache/"
+					"^__pycache__/"
+					"^output/"
+					"^data/"
+					"%.ipynb"
+					"node_modules"
+				];
+				selection_caret = "> ";
+				set_env = {
+					COLORTERM = "truecolor";
+				};
+			};
+		};
+
+
 		extensions = {
 			fzf-native.enable = true;
 		};
