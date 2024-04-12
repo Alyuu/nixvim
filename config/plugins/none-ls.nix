@@ -5,7 +5,7 @@
       diagnostics = {
         stylelint.enable = true;
         statix.enable = true;
-        markdownlint = true;
+        markdownlint.enable = true;
       };
       formatting = {
         csharpier.enable = true;
