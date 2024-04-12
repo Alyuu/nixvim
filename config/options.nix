@@ -13,5 +13,11 @@
 		smartindent = true;
 
 		wrap = false;
+
+        hlsearch = false;
+        incsearch = true;
+
+        scrolloff = 8;
+        signcolumn = "yes";
 	};
 }
