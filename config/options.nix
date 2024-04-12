@@ -1,23 +1,22 @@
 {
-	opts = {
-		guicursor = "";
+  opts = {
+    guicursor = "";
 
-		nu = true;
-		relativenumber = true;
-		
-		tabstop = 4;
-		softtabstop = 4;
-		shiftwidth = 4;
-		expandtab = true;
+    nu = true;
+    relativenumber = true;
 
-		smartindent = true;
+    tabstop = 4;
+    softtabstop = 4;
+    shiftwidth = 4;
+    autoindent = true;
+    smartindent = true;
 
-		wrap = false;
+    wrap = false;
 
-        hlsearch = false;
-        incsearch = true;
+    hlsearch = false;
+    incsearch = true;
 
-        scrolloff = 8;
-        signcolumn = "yes";
-	};
+    scrolloff = 8;
+    signcolumn = "yes";
+  };
 }
