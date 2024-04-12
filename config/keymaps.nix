@@ -3,7 +3,4 @@
 		mapleader = " ";
 		maplocalleader = " ";
 	};
-
-	keymaps = [
-	];
 }
