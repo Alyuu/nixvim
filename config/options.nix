@@ -5,8 +5,9 @@
     nu = true;
     relativenumber = true;
 
-    tabstop = 4;
-    shiftwidth = 4;
+    tabstop = 8;
+    softtabstop = 8;
+    shiftwidth = 8;
     expandtab = true;
     autoindent = true;
     smartindent = true;
