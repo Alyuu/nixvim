@@ -2,6 +2,7 @@
     plugins = {
         conform-nvim = {
             enable = true;
+            notifyOnError = true;
             formattersByFt = {
                 lua = [ "stylua" ];
                 markdown = [ "prettierd" ];
