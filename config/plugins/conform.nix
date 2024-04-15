@@ -2,6 +2,10 @@
     plugins = {
         conform-nvim = {
             enable = true;
+            formatOnSave = {
+                lspFallback = true;
+                timeoutMs = 500;
+            };
             formattersByFt = {
                 lua = [ "stylua" ];
                 markdown = [ "prettierd" ];
@@ -19,25 +23,4 @@
             };
         };
     };
-
-    keymaps = [
-        {
-            key = "<leader>fm";
-            lua = true;
-            action = ''
-                function()
-                    require'conform'.format({
-                        lsp_fallback = true,
-                        async = false,
-                        timeout_ms = 500,
-                    });
-                end
-            '';
-            mode = [
-                "n"
-                "v"
-            ];
-            options.desc = "[F]or[m]at";
-        }
-    ];
 }
