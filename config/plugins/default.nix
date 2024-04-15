@@ -5,7 +5,6 @@
             ./telescope.nix
             ./treesitter.nix
             ./lsp.nix
-            ./none-ls.nix
             ./cmp.nix
             ./comment.nix
             ./colorizer.nix
@@ -16,5 +15,7 @@
             ./trouble.nix
             ./indent-blankline.nix
             ./surround.nix
+            ./conform.nix
+            ./lint.nix
     ];
 }
