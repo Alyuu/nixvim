@@ -13,6 +13,14 @@
                 htmx.enable = true;
                 tsserver.enable = true;
                 sqls.enable = true;
+                rust-analyzer = {
+                    enable = true;
+                    installCargo = true;
+                    installRustc = true;
+                    settings = {
+                        cargo.features = "all";
+                    };
+                };
             };
             keymaps = {
                 silent = true;
