@@ -15,6 +15,7 @@
         ./trouble.nix
         ./indent-blankline.nix
         ./surround.nix
+        ./snippets.nix
         # ./conform.nix
         # ./lint.nix
     ];
