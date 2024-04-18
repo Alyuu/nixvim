@@ -1,7 +1,4 @@
 {
-    extraConfigLua = ''
-        require("lspconfig")["angularls"].setup({})
-    '';
     plugins = {
         lsp = {
             enable = true;
