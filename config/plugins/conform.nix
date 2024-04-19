@@ -3,16 +3,6 @@
         conform-nvim = {
             enable = true;
             notifyOnError = true;
-
-            formatters = {
-                shfmt = {
-                    prepend_args = ''
-                        function(ctx)
-                            return { "--indent", tostring(vim.bo[ctx.buf].shiftwidth) }
-                        end
-                    '';
-                };
-            };
         };
     };
 
