@@ -1,16 +1,6 @@
 { pkgs, ...}:
 
 {
-    files = {
-        "nix.lua" = {
-            opts = {
-                expandtab = true;
-                shiftwidth = 4;
-                tabstop = 4;
-            };
-        };
-    };
-    
     plugins = {
         nix.enable = true;
         hmts.enable = true;
