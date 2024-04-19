@@ -6,7 +6,7 @@
 
             formatters = {
                 shfmt = {
-                    prepend_args.__raw = ''
+                    prepend_args = ''
                         function(ctx)
                             return { "--indent", tostring(vim.bo[ctx.buf].shiftwidth) }
                         end
