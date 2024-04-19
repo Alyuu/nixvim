@@ -5,7 +5,6 @@
             servers = {
                 bashls.enable = true;
                 gopls.enable = true;
-                nixd.enable = true;
                 ruff-lsp.enable = true;
                 csharp-ls.enable = true;
                 cssls.enable = true;

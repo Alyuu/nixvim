@@ -1,5 +1,6 @@
 {
     imports = [
+        ./lang
         ./oil.nix
         ./lualine.nix
         ./telescope.nix
@@ -16,7 +17,7 @@
         ./indent-blankline.nix
         ./surround.nix
         ./snippets.nix
-        # ./conform.nix
+        ./conform.nix
         # ./lint.nix
     ];
 }
