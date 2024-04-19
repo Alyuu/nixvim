@@ -18,6 +18,6 @@
         ./surround.nix
         ./snippets.nix
         ./conform.nix
-        # ./lint.nix
+        ./lint.nix
     ];
 }
