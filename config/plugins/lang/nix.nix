@@ -2,7 +2,6 @@
 
 {
     plugins = {
-        nix.enable = true;
         hmts.enable = true;
 
         conform-nvim = {
