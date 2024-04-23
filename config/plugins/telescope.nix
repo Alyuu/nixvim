@@ -5,23 +5,23 @@
 		keymaps = {
 			"<leader>sf" = {
 				action = "find_files";
-				options.desc = "[S]earch [F]iles";
+				options.desc = "[s]earch [f]iles";
 			};
 			"<leader>sh" = {
 				action = "help_tags";
-				options.desc = "[S]earch [H]elp";
+				options.desc = "[s]earch [h]elp";
 			};
 			"<leader>sg" = {
 				action = "live_grep";
-				options.desc = "[S]earch by [G]rep";
+				options.desc = "[s]earch by [g]rep";
 			};
 			"<leader>sd" = {
 				action = "diagnostics";
-				options.desc = "[S]earch [D]iagnostics";
+				options.desc = "[s]earch [d]iagnostics";
 			};
 			"<leader>gf" = {
 				action = "git_files";
-				options.desc = "Search [G]it [F]iles";
+				options.desc = "Search [g]it [f]iles";
 			};
 		};
 

@@ -23,7 +23,7 @@
                 "n"
                 "v"
             ];
-            options.desc = "[F]or[m]at";
+            options.desc = "[f]or[m]at";
         }
     ];
 }

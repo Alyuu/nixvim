@@ -3,7 +3,6 @@
 	imports = [
 		./keymaps.nix
 		./options.nix
-        ./ftplugins.nix
 		./plugins
 	];
 

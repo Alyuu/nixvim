@@ -26,23 +26,23 @@
                 lspBuf = {
                     gd = {
                         action = "definition";
-                        desc = "Goto Definition";
+                        desc = "[g]oto [d]efinition";
                     };
                     gr = {
                         action = "references";
-                        desc = "Goto References";
+                        desc = "[g]oto [r]eferences";
                     };
                     gD = {
                         action = "declaration";
-                        desc = "Goto Declaration";
+                        desc = "[g]oto [D]eclaration";
                     };
                     gI = {
                         action = "implementation";
-                        desc = "Goto Implementation";
+                        desc = "[g]oto [I]mplementation";
                     };
                     gT = {
                         action = "type_definition";
-                        desc = "Type Definition";
+                        desc = "[g]oto [T]ype Definition";
                     };
                     K = {
                         action = "hover";
@@ -50,29 +50,29 @@
                     };
                     "<leader>cw" = {
                         action = "workspace_symbol";
-                        desc = "Workspace Symbol";
+                        desc = "[w]orkspace Symbol";
                     };
                     "<leader>cr" = {
                         action = "rename";
-                        desc = "Rename";
+                        desc = "[r]ename";
                     };
                     "<leader>ca" = {
                         action = "code_action";
-                        desc = "Code Action";
+                        desc = "[c]ode [a]ction";
                     };
                 };
                 diagnostic = {
                     "<leader>cd" = {
                         action = "open_float";
-                        desc = "Line Diagnostics";
+                        desc = "Line [d]iagnostics";
                     };
                     "[d" = {
                         action = "goto_next";
-                        desc = "Next Diagnostic";
+                        desc = "Next [d]iagnostic";
                     };
                     "]d" = {
                         action = "goto_prev";
-                        desc = "Previous Diagnostic";
+                        desc = "Previous [d]iagnostic";
                     };
                 };
             };
