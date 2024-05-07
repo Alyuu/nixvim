@@ -1,5 +1,5 @@
 {
     plugins.presence-nvim = {
-        enagle = true;
+        enable = true;
     };
 }
