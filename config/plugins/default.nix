@@ -19,5 +19,6 @@
         ./snippets.nix
         ./conform.nix
         ./lint.nix
+        ./presence.nix
     ];
 }
