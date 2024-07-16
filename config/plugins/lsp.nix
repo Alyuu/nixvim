@@ -12,6 +12,8 @@
                 htmx.enable = true;
                 tsserver.enable = true;
                 sqls.enable = true;
+                gleam.enable = true;
+                gdscript.enable = true;
                 rust-analyzer = {
                     enable = true;
                     installCargo = true;
