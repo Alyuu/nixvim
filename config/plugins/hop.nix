@@ -6,8 +6,7 @@
     keymaps = [
         {
             key = "<leader><leader>s";
-            lua = true;
-            action = "require'hop'.hint_char1";
+            action.__raw = "require'hop'.hint_char1";
             mode = [
                 "n"
                 "v"
@@ -16,8 +15,7 @@
         }
         {
             key = "<leader><leader>/";
-            lua = true;
-            action = "require'hop'.hint_patterns";
+            action.__raw = "require'hop'.hint_patterns";
             mode = [
                 "n"
                 "v"
@@ -26,8 +24,7 @@
         }
         {
             key = "<leader><leader>l";
-            lua = true;
-            action = "require'hop'.hint_lines";
+            action.__raw = "require'hop'.hint_lines";
             mode = [
                 "n"
                 "v"

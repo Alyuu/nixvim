@@ -19,8 +19,7 @@
     keymaps = [
         {
             key = "<leader>fm";
-            lua = true;
-            action = ''
+            action.__raw = ''
                 function()
                     require'conform'.format({
                         lsp_fallback = true,

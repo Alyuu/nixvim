@@ -20,23 +20,20 @@
     keymaps = [
         {
             key = "<leader>tt";
-            lua = true;
-            action = "require'trouble'.toggle";
+            action.__raw = "require'trouble'.toggle";
             mode = "n";
             options.desc = "[T]oggle [T]rouble";
         }
         {
             key = "[t";
-            lua = true;
-            action =
+            action.__raw =
                 "function() require'trouble'.next({skip_groups = true, jump = true}) end";
             mode = "n";
             options.desc = "Next [T]rouble";
         }
         {
             key = "]t";
-            lua = true;
-            action =
+            action.__raw =
                 "function() require'trouble'.previous({skip_groups = true, jump = true}) end";
             mode = "n";
             options.desc = "Previous [T]rouble";

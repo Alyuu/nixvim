@@ -27,7 +27,7 @@
             };
         };
 
-        lsp.servers.nil_ls = {
+        lsp.servers.nil-ls = {
             enable = true;
         };
     };
