@@ -4,6 +4,11 @@
 			enable = true;
             settings = {
                 indent.enable = true;
+                auto_install = false;
+                ensure_installed = "all";
+                highlight = {
+                    enable = true;
+                };
             };
 		};
 		rainbow-delimiters.enable = true;
