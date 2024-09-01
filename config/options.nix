@@ -12,7 +12,7 @@
         autoindent = true;
         smartindent = true;
 
-        wrap = false;
+        wrap = true;
 
         hlsearch = false;
         incsearch = true;
