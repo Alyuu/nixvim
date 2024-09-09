@@ -2,7 +2,7 @@
     plugins = {
         conform-nvim = {
             enable = true;
-            notifyOnError = true;
+            notify_on_error = true;
 
             formatters = {
                 shfmt = {
