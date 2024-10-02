@@ -15,10 +15,11 @@
         ./fidget.nix
         ./trouble.nix
         ./indent-blankline.nix
-        ./surround.nix
+        ./vim-surround.nix
         ./snippets.nix
         ./conform.nix
         ./lint.nix
         ./presence.nix
+        ./web-devicons.nix
     ];
 }

@@ -10,7 +10,7 @@
                 cssls.enable = true;
                 html.enable = true;
                 htmx.enable = true;
-                tsserver.enable = true;
+                ts-ls.enable = true;
                 sqls.enable = true;
                 gleam.enable = true;
                 gdscript.enable = true;
